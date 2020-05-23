@@ -1,0 +1,50 @@
+body{
+    background: url('bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+}
+.container{
+    width: 650px;
+    margin: 0 auto;
+
+}
+ header{
+     text-align: center;
+     border-bottom: 1px solid white;
+ }
+ nav ul{
+     list-style: none;
+     display:inline;
+ }
+ nav ul li{
+     display:inline-block;
+     padding: 20px;
+    
+ }
+  a{
+    text-decoration: none;
+    color: white;
+ }
+ section{
+     text-align: center;
+ } 
+ section h1{
+   margin-bottom: 160px ;
+ }
+ a.button{
+     display: block;
+     height: 70px;
+     width: 200px;
+     background: url('bb.png') no-repeat;
+     margin: 0 auto;
+     color: black;
+     line-height: 70px;
+     font-size:18px;
+     background-size: 100%;
+ }
+footer p{
+    text-align: center;
+    padding-top: 90px;
+}
